@@ -1,0 +1,1513 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0202.1238                               -->
+<workbook original-version='18.1' source-build='2023.3.3 (20233.24.0202.1238)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (3) (数据)' inline='true' name='federated.0gieksk02bgz891b98sqj1s7mdst' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='数据' name='excel-direct.14oxlyd01k9xb01bymsxh1eu7eo3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Axess/Desktop/接单补贴家用/20240616-想吃火锅啊/数据.xlsx' interpretationMode='0' password='' port='0' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.14oxlyd01k9xb01bymsxh1eu7eo3' name='Sheet1 (3)' table='[&apos;Sheet1 (3)$&apos;]' type='table'>
+          <columns gridOrigin='A1:K36:no:A1:K36:0' header='yes' outcome='2'>
+            <column datatype='string' name='统计年度' ordinal='0' />
+            <column datatype='real' name='年末总人口' ordinal='1' />
+            <column datatype='real' name='0-14岁人口数' ordinal='2' />
+            <column datatype='real' name='0-14岁人口比重' ordinal='3' />
+            <column datatype='real' name='15-64岁人口数' ordinal='4' />
+            <column datatype='real' name='15-64岁人口比重' ordinal='5' />
+            <column datatype='real' name='65岁及以上人口数' ordinal='6' />
+            <column datatype='real' name='65岁及以上人口比重' ordinal='7' />
+            <column datatype='real' name='总抚养比' ordinal='8' />
+            <column datatype='real' name='少儿抚养比' ordinal='9' />
+            <column datatype='real' name='老年抚养比' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.14oxlyd01k9xb01bymsxh1eu7eo3' name='Sheet1 (3)' table='[&apos;Sheet1 (3)$&apos;]' type='table'>
+          <columns gridOrigin='A1:K36:no:A1:K36:0' header='yes' outcome='2'>
+            <column datatype='string' name='统计年度' ordinal='0' />
+            <column datatype='real' name='年末总人口' ordinal='1' />
+            <column datatype='real' name='0-14岁人口数' ordinal='2' />
+            <column datatype='real' name='0-14岁人口比重' ordinal='3' />
+            <column datatype='real' name='15-64岁人口数' ordinal='4' />
+            <column datatype='real' name='15-64岁人口比重' ordinal='5' />
+            <column datatype='real' name='65岁及以上人口数' ordinal='6' />
+            <column datatype='real' name='65岁及以上人口比重' ordinal='7' />
+            <column datatype='real' name='总抚养比' ordinal='8' />
+            <column datatype='real' name='少儿抚养比' ordinal='9' />
+            <column datatype='real' name='老年抚养比' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K36:no:A1:K36:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>统计年度</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[统计年度]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>统计年度</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>年末总人口</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[年末总人口]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>年末总人口</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>0-14岁人口数</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[0-14岁人口数]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>0-14岁人口数</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>0-14岁人口比重</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[0-14岁人口比重]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>0-14岁人口比重</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>15-64岁人口数</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[15-64岁人口数]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>15-64岁人口数</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>15-64岁人口比重</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[15-64岁人口比重]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>15-64岁人口比重</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>65岁及以上人口数</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[65岁及以上人口数]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>65岁及以上人口数</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>65岁及以上人口比重</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[65岁及以上人口比重]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>65岁及以上人口比重</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>总抚养比</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[总抚养比]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>总抚养比</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>少儿抚养比</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[少儿抚养比]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>少儿抚养比</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>老年抚养比</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[老年抚养比]</local-name>
+            <parent-name>[Sheet1 (3)]</parent-name>
+            <remote-alias>老年抚养比</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[0-14岁人口数]' role='measure' type='quantitative' />
+      <column datatype='real' name='[15-64岁人口数]' role='measure' type='quantitative' />
+      <column datatype='real' name='[65岁及以上人口数]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1 (3)' datatype='table' name='[__tableau_internal_object_id__].[Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9]' role='measure' type='quantitative' />
+      <column datatype='real' name='[少儿抚养比]' role='measure' type='quantitative' />
+      <column datatype='real' name='[年末总人口]' role='measure' type='quantitative' />
+      <column datatype='real' name='[总抚养比]' role='measure' type='quantitative' />
+      <column datatype='real' name='[老年抚养比]' role='measure' type='quantitative' />
+      <column-instance column='[0-14岁人口数]' derivation='Sum' name='[sum:0-14岁人口数:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[15-64岁人口数]' derivation='Sum' name='[sum:15-64岁人口数:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[65岁及以上人口数]' derivation='Sum' name='[sum:65岁及以上人口数:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[少儿抚养比]' derivation='Sum' name='[sum:少儿抚养比:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[年末总人口]' derivation='Sum' name='[sum:年末总人口:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[总抚养比]' derivation='Sum' name='[sum:总抚养比:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[老年抚养比]' derivation='Sum' name='[sum:老年抚养比:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:少儿抚养比:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:15-64岁人口数:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:0-14岁人口数:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:总抚养比:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:年末总人口:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;中国&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1 (3)' id='Sheet1 (3)_7A92B272C15240E5A753EFD833E030B9'>
+            <properties context=''>
+              <relation connection='excel-direct.14oxlyd01k9xb01bymsxh1eu7eo3' name='Sheet1 (3)' table='[&apos;Sheet1 (3)$&apos;]' type='table'>
+                <columns gridOrigin='A1:K36:no:A1:K36:0' header='yes' outcome='2'>
+                  <column datatype='string' name='统计年度' ordinal='0' />
+                  <column datatype='real' name='年末总人口' ordinal='1' />
+                  <column datatype='real' name='0-14岁人口数' ordinal='2' />
+                  <column datatype='real' name='0-14岁人口比重' ordinal='3' />
+                  <column datatype='real' name='15-64岁人口数' ordinal='4' />
+                  <column datatype='real' name='15-64岁人口比重' ordinal='5' />
+                  <column datatype='real' name='65岁及以上人口数' ordinal='6' />
+                  <column datatype='real' name='65岁及以上人口比重' ordinal='7' />
+                  <column datatype='real' name='总抚养比' ordinal='8' />
+                  <column datatype='real' name='少儿抚养比' ordinal='9' />
+                  <column datatype='real' name='老年抚养比' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='人口数量变动'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (3) (数据)' name='federated.0gieksk02bgz891b98sqj1s7mdst' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gieksk02bgz891b98sqj1s7mdst'>
+            <column datatype='real' name='[65岁及以上人口数]' role='measure' type='quantitative' />
+            <column-instance column='[统计年度]' derivation='None' name='[none:统计年度:nk]' pivot='key' type='nominal' />
+            <column-instance column='[65岁及以上人口数]' derivation='Sum' name='[sum:65岁及以上人口数:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[年末总人口]' derivation='Sum' name='[sum:年末总人口:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[年末总人口]' role='measure' type='quantitative' />
+            <column datatype='string' name='[统计年度]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:年末总人口:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0gieksk02bgz891b98sqj1s7mdst].[sum:年末总人口:qk] + [federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk])</rows>
+        <cols>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</cols>
+        <mark-labels>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+                  <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]</field>
+                  <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;1982&quot;</value>
+                <value>4991.2114000000001</value>
+                <value>&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='8' y='24' />
+          </mark-label>
+          <mark-label id='3'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+                  <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]</field>
+                  <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;2021&quot;</value>
+                <value>20056.0</value>
+                <value>&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='13' y='31' />
+          </mark-label>
+        </mark-labels>
+        <annotations>
+          <annotation class='point' id='1' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontsize='15'>4.9%</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.5'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;1982&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='5226.0305980528547'>
+                  <node-reference>
+                    <axis>[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:年末总人口:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='89' y='-47' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontsize='14'>14.2%</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.35'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;2021&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='20629.068150208615'>
+                  <node-reference>
+                    <axis>[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:年末总人口:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-75' y='-35' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{0FFF9638-0315-4312-9ED5-91977D568AB1}' />
+    </worksheet>
+    <worksheet name='人口构成变化图'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (3) (数据)' name='federated.0gieksk02bgz891b98sqj1s7mdst' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gieksk02bgz891b98sqj1s7mdst'>
+            <column datatype='real' name='[0-14岁人口数]' role='measure' type='quantitative' />
+            <column datatype='real' name='[15-64岁人口数]' role='measure' type='quantitative' />
+            <column datatype='real' name='[65岁及以上人口数]' role='measure' type='quantitative' />
+            <column-instance column='[统计年度]' derivation='None' name='[none:统计年度:nk]' pivot='key' type='nominal' />
+            <column-instance column='[0-14岁人口数]' derivation='Sum' name='[sum:0-14岁人口数:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[15-64岁人口数]' derivation='Sum' name='[sum:15-64岁人口数:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[65岁及以上人口数]' derivation='Sum' name='[sum:65岁及以上人口数:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[统计年度]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:0-14岁人口数:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:15-64岁人口数:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' value='0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0gieksk02bgz891b98sqj1s7mdst].[Multiple Values]</rows>
+        <cols>([federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk] / [federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{56D6AD7C-DFE8-498F-A391-21E170D879BE}' />
+    </worksheet>
+    <worksheet name='抚养比与人口占比变化对比图'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (3) (数据)' name='federated.0gieksk02bgz891b98sqj1s7mdst' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gieksk02bgz891b98sqj1s7mdst'>
+            <column datatype='real' name='[0-14岁人口数]' role='measure' type='quantitative' />
+            <column datatype='real' name='[65岁及以上人口数]' role='measure' type='quantitative' />
+            <column-instance column='[统计年度]' derivation='None' name='[none:统计年度:nk]' pivot='key' type='nominal' />
+            <column-instance column='[0-14岁人口数]' derivation='Sum' name='[sum:0-14岁人口数:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[65岁及以上人口数]' derivation='Sum' name='[sum:65岁及以上人口数:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[少儿抚养比]' derivation='Sum' name='[sum:少儿抚养比:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[老年抚养比]' derivation='Sum' name='[sum:老年抚养比:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[少儿抚养比]' role='measure' type='quantitative' />
+            <column datatype='string' name='[统计年度]' role='dimension' type='nominal' />
+            <column datatype='real' name='[老年抚养比]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:0-14岁人口数:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:少儿抚养比:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:0-14岁人口数:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0gieksk02bgz891b98sqj1s7mdst].[sum:少儿抚养比:qk] + ([federated.0gieksk02bgz891b98sqj1s7mdst].[sum:0-14岁人口数:qk] + ([federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk] + [federated.0gieksk02bgz891b98sqj1s7mdst].[sum:65岁及以上人口数:qk])))</rows>
+        <cols>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</cols>
+      </table>
+      <simple-id uuid='{D83D4FCB-B7E8-4C46-8152-911B18A5D3F6}' />
+    </worksheet>
+    <worksheet name='抚养比变化图'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (3) (数据)' name='federated.0gieksk02bgz891b98sqj1s7mdst' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gieksk02bgz891b98sqj1s7mdst'>
+            <column-instance column='[统计年度]' derivation='None' name='[none:统计年度:nk]' pivot='key' type='nominal' />
+            <column-instance column='[总抚养比]' derivation='Sum' name='[sum:总抚养比:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[老年抚养比]' derivation='Sum' name='[sum:老年抚养比:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[总抚养比]' role='measure' type='quantitative' />
+            <column datatype='string' name='[统计年度]' role='dimension' type='nominal' />
+            <column datatype='real' name='[老年抚养比]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+              <size column='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:总抚养比:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+              <size column='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' />
+              <size column='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0gieksk02bgz891b98sqj1s7mdst].[sum:总抚养比:qk] + [federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk])</rows>
+        <cols>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</cols>
+      </table>
+      <simple-id uuid='{97F38606-A659-4BAB-B7C5-E213D42F04F3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='仪表板 1'>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='17' param='horz' type-v2='layout-flow' w='99000' x='500' y='889'>
+            <zone h='98222' id='7' param='horz' type-v2='layout-flow' w='89000' x='500' y='889'>
+              <zone h='98222' id='5' type-v2='layout-basic' w='89000' x='500' y='889' />
+            </zone>
+            <zone fixed-size='160' h='98222' id='16' is-fixed='true' param='vert' type-v2='layout-flow' w='10000' x='89500' y='889' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='33222' id='3' name='人口数量变动' show-title='false' w='33313' x='1813' y='3667' />
+        <zone h='7222' id='8' name='人口数量变动' pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type-v2='color' w='14000' x='10688' y='12444' />
+        <zone h='33333' id='9' name='人口构成变化图' show-title='false' w='33313' x='39500' y='3778' />
+        <zone h='8667' id='10' name='人口构成变化图' pane-specification-id='0' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type-v2='color' w='8750' x='73625' y='4667' />
+        <zone h='33333' id='11' name='抚养比变化图' show-title='false' w='33313' x='2813' y='39778' />
+        <zone h='6444' id='13' name='抚养比变化图' pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type-v2='color' w='8750' x='5938' y='73889' />
+        <zone h='33333' id='14' name='抚养比与人口占比变化对比图' show-title='false' w='33313' x='39563' y='41000' />
+        <zone h='10889' id='15' name='抚养比与人口占比变化对比图' pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type-v2='color' w='8750' x='74938' y='41333' />
+        <zone h='7111' id='18' type-v2='text' w='56125' x='31250' y='80444'>
+          <formatted-text>
+            <run bold='true' fontsize='15'>65岁及以上老年人口占比逐年上升，2021年占比达到14.2%，已步入老龄化社会</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='19' param='vert' type-v2='layout-flow' w='99000' x='500' y='889'>
+                <zone fixed-size='280' h='33222' id='3' is-fixed='true' name='人口数量变动' show-title='false' w='33313' x='1813' y='3667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7222' id='8' name='人口数量变动' pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type-v2='color' w='14000' x='10688' y='12444'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='9' is-fixed='true' name='人口构成变化图' show-title='false' w='33313' x='39500' y='3778'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8667' id='10' name='人口构成变化图' pane-specification-id='0' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type-v2='color' w='8750' x='73625' y='4667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='11' is-fixed='true' name='抚养比变化图' show-title='false' w='33313' x='2813' y='39778'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6444' id='13' name='抚养比变化图' pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type-v2='color' w='8750' x='5938' y='73889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='14' is-fixed='true' name='抚养比与人口占比变化对比图' show-title='false' w='33313' x='39563' y='41000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10889' id='15' name='抚养比与人口占比变化对比图' pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type-v2='color' w='8750' x='74938' y='41333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7111' id='18' type-v2='text' w='56125' x='31250' y='80444'>
+                  <formatted-text>
+                    <run bold='true' fontsize='15'>65岁及以上老年人口占比逐年上升，2021年占比达到14.2%，已步入老龄化社会</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F85AB078-7599-4181-AFDA-ADF36AA80D4D}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='仪表板 1'>
+      <viewpoints>
+        <viewpoint name='人口数量变动'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='人口构成变化图'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='抚养比与人口占比变化对比图'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='抚养比变化图'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9E61F405-93FE-4F72-8F01-315CD0DEA339}' />
+    </window>
+    <window class='worksheet' name='人口数量变动'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{139E1408-E258-4E4F-B299-644A2268BF25}' />
+    </window>
+    <window class='worksheet' name='人口构成变化图'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]</field>
+            <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{39753891-CC7D-4BFF-9CC8-0CEFF021FAA5}' />
+    </window>
+    <window class='worksheet' name='抚养比变化图'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type='color' />
+            <card pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[sum:老年抚养比:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7DC08BFF-B117-46D8-977D-5BFEB1F5931F}' />
+    </window>
+    <window class='worksheet' name='抚养比与人口占比变化对比图'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0gieksk02bgz891b98sqj1s7mdst].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gieksk02bgz891b98sqj1s7mdst].[none:统计年度:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{229FBF80-1587-4B6C-94E5-B951163358B8}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='人口数量变动' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='人口构成变化图' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='仪表板 1' width='192'>
+      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
+      /4QAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='抚养比与人口占比变化对比图' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='抚养比变化图' width='192'>
+      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
+      /QLvrXWAiAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
